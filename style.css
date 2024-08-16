@@ -794,4 +794,280 @@ div h5 ,p{
         flex-direction: column;
         align-items: center;
         border-radius: 10px;
+        background: rgb(34, 34, 34);
+        padding: 20px 10px;
+    }
 
+    .run-section-text {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .run-section-text h1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .run-section-text p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .run-section-text .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .run-section-img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .run-section-img img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+
+/* third page responsive code  ends*/
+
+
+/* fourth page responsive code  starts*/
+
+@media screen and (max-width: 576px) {
+    .bmi-header {
+        width: 100%;
+        height: auto; 
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px; 
+    }
+    .bmi-header h1 {
+        font-size: 24px; 
+        text-align: center; 
+    }
+    .bmi-header p {
+        font-size: 12px; 
+        text-align: center;
+    }
+    .bmi-calculation {
+        height: auto;
+        margin-top: 20px; 
+        padding: 10px;
+    }
+
+    .bmi-calculation-inner {
+        width: 100%; 
+        height: auto;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .bmi-chart,.bmi-form {
+        width: 80%;
+        margin-bottom: 20px; 
+    }
+
+    .bmi-h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .bmi-form p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        margin: 10px 0; 
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    .form-input, .form-drop {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px; 
+    }
+}
+/* fourth page responsive code  ends*/
+
+/* fifth page responsive code  starts*/
+
+@media screen and (max-width: 576px) {
+    .meet-team {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .meet-team-text {
+        width: 100%; 
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .meet-team-text h1 {
+        font-size: 28px; 
+    }
+
+    .meet-team-text p {
+        font-size: 14px; 
+        text-align: center; 
+    }
+
+    .meet-team-img {
+        width: 100%; 
+        height: auto; 
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 10px; 
+    }
+
+    .meet-gem {
+        width: 100%; 
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .meet-00 {
+        width: 100%; 
+        height: auto;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .bottom-left-text {
+        bottom: 20px;
+        left: 10px;
+        font-size: 14px; 
+    }
+
+    .bottom-text {
+        bottom: 10px; 
+        left: 10px;
+        font-size: 12px; 
+    }
+
+    .img-shape {
+        height: 180px; 
+        border-radius: 10px;
+    }
+}
+
+/* fifth page responsive code  ends*/
+
+
+
+/* extra section responsive code  starts*/
+
+@media screen and (max-width: 576px) {
+    .package {
+        width: 100%; 
+        height: auto; 
+        margin-top: 50px;
+    }
+
+    .package h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .extra-section {
+        width: 100%; 
+        height: auto;
+        margin-top: 20px;
+        display: block;
+        padding: 10px; 
+        background-image:url(images/exercise4.png); 
+        background-color: #333; 
+    }
+
+    .extra-card {
+        width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .extra-card h1 {
+        font-size: 22px; 
+    }
+
+    .extra-card h3 {
+        font-size: 20px;
+    }
+
+    .extra-card ul li {
+        font-size: 14px;
+    }
+
+}
+
+/* extra section responsive code  ends*/
+
+
+/* footer section responsive code  starts*/
+
+@media screen and (max-width: 576px) {
+    footer {
+        width: 100%; 
+        height: auto;
+        padding: 20px 0 20px; 
+        font-size: 12px; 
+        line-height: 16px;
+    }
+
+    .row {
+        width: 90%;
+        margin: auto;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .col {
+        flex-basis: 100%;
+        padding: 10px 0;
+        margin-bottom: 20px; 
+    }
+
+    .col h1, .col h3, .col h5, .col p {
+        font-size: 16px; 
+        margin-bottom: 10px; 
+    }
+
+    .hr {
+        width: 90%;
+        margin: 20px auto; 
+    }
+
+    .copy-right {
+        font-size: 12px; 
+        margin-top: 10px;
+    }
+
+    #fit-ness {
+        font-size: 40px;
+    }
+}
+
+/* footer section responsive code  ends*/
