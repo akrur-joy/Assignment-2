@@ -126,3 +126,472 @@ nav  ul  li{
     background-color: chartreuse;
     color: black;
 }
+#app{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 42px;
+    width: 150px;
+    height: 44px;
+    padding: 8px 12px 8px 12px;;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    
+}
+.banner-container-02{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.banner-container-02 img{
+    width: 330px;
+    height: 550px;
+
+}
+.banner-card-01{
+    margin: 2px solid red;
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    left: 1090px;
+    top: 260px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 10px 10px 10px;
+}
+.banner-card-02{
+    margin: 2px solid red;
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    left: 820px;
+    top: 456px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 10px 10px 10px;
+}
+.small-card{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+}
+.small-p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+/* first page style ends */
+
+
+/* Second page style starts */
+
+
+.habit-section{
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.habit-section-titel{
+    width: 500px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 10px;
+    align-items: center;
+}
+.habit-section-titel h1{
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.habit-section-titel p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.habit-img{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.habit-img-01{
+    width: 22%;
+    height: 125%;
+}
+.img{
+    clip-path: circle();
+    margin-left: 40px;
+    margin-right: 30PX;
+}
+.i-h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center; 
+}
+.i-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+.habit-img-02{
+    width: 22%;
+    height: 125%;
+}
+.habit-img-03{
+    width: 22%;
+    height: 125%;
+}
+.habit-img-04{
+    width: 22%;
+    height: 125%;
+
+}
+/* Second page style ends */
+
+
+/* third page style starts */
+
+.run-section{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+.run-section-text{
+    width: 40%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.run-section-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 800;
+}
+.run-section-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+}
+.run-section-img{
+    width: 30%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.run-section-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+
+/* third page style ends */
+
+
+
+/* fourth page style starts  */
+
+
+.bmi-header{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.bmi-header h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+.bmi-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.bmi-calculation{
+    width: 100%;
+    height: 500px;
+    border: 2px solid rgb(34, 34, 34);
+    margin: 0 auto;
+    margin-top: 50px;
+    background: rgb(34, 34, 34);
+
+}
+.bmi-calculation-inner{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.bmi-chart{
+    width: 40%;
+    height: 90%;
+    margin: 0 auto;
+}
+.bmi-h2{
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 900;
+}
+.bmi-form{
+    width: 55%;
+    height: 95%;
+    margin: 0 auto;
+}
+.bmi-form p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+.form-input{
+    width: 282.5px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    gap: 40px;
+}
+.form-drop{
+    width: 577px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* fourth page style ends */
+
+
+/* fifth page style starts */
+
+.meet-team{
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.meet-team-text{
+    width: 500px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 10px;
+    align-items: center;
+}
+.meet-team-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.meet-team-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;  
+}
+.meet-team-img{
+    width: 1200px;
+    height: 480px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.meet-gem{
+    width: 1000px;
+    height: 470px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px; 
+    margin: 0 auto; 
+}
+.meet-00{
+    width: 240px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 18px;
+    position: relative;
+}
+.bottom-left-text{
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.bottom-text{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 10px;
+    font-weight: 400;
+
+}
+
+.img-shape{
+    max-width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* fifth page style ends */
+
+
+/* extra section starts */
+
+.package{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.package h1{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.extra-section{
+    width: 1200px;
+    height: 450px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    background-image: url(./images/exercise4.png);
+}
+.extra-card{
+    width: 280px;
+    height: 350px;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 30px;
+    background: black;
+    border-radius: 18px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.extra-card h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.extra-card h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 600;
+}
+.extra-card ul li{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* extra section ends */
+
+
+/* footer style starts */
+
+footer{
+    color: aliceblue;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px 0 30px;
+    font-size: 13px;
+    line-height: 14px;
+    margin-top: 100px;
+}
+.row{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+div h5 ,p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.hr{
+    width: 70%;
+    margin: 10px auto;
+}
+.copy-right{
+    text-align: center;
+}
+.fit-ness{
+    margin-bottom: 15px;
+}
+
+ /* footer style ends */
+
+
